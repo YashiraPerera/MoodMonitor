@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_MA4"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:id="@+id/onBoard3Topic"
+        android:layout_width="391dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/orienta"
+        android:text="@string/onBoard3_Topic"
+        android:textAlignment="center"
+        android:textColor="@color/onBoard3_topic"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bottomAppBar3" />
+
+    <TextView
+        android:id="@+id/onBoard3Des"
+        android:layout_width="360dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/alice"
+        android:text="@string/onBoard3_des"
+        android:textAlignment="center"
+        android:textColor="@color/onboard3_des"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onBoard3Topic" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="218dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@color/startBtn_color"
+        android:fontFamily="@font/belgrano"
+        android:text="@string/getstart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onBoard3Des" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar3"
+        android:layout_width="396dp"
+        android:layout_height="320dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="8dp"
+        app:backgroundTint="@color/container1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="487dp"
+        android:layout_height="295dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bottomAppBar3"
+        app:srcCompat="@drawable/on4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn1">10</dimen>
+    <dimen name="getStarted_btn">25</dimen>
+    <dimen name="homeTopic">10</dimen>
+    <dimen name="input">10dp</dimen>
+    <dimen name="container">20dp</dimen>
+</resources>

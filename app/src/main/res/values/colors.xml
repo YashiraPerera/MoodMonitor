@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="R_btn">#6A67FF</color>
+    <color name="next_btn">#C3F4FF</color>
+    <color name="btn_Tcolor">#5E35FF</color>
+    <color name="launchPageDes">#000000</color>
+    <color name="launchPageDes2">#000000</color>
+    <color name="skip_btn1">#A2C7FD</color>
+    <color name="skip1_Tcolor">#5E35FF</color>
+    <color name="onboard1_des">#000000</color>
+    <color name="onBoard1_dse">#000000</color>
+    <color name="next_btn2">#A2C7FD</color>
+    <color name="next2_Tcolor">#5E35FF</color>
+    <color name="background">#A2C7FD</color>
+    <color name="onBoard2_topic">#000000</color>
+    <color name="onboard2_des">#000000</color>
+    <color name="skip_btn2">#A2C7FD</color>
+    <color name="skip2_Tcolor">#5E35FF</color>
+    <color name="next_btn3">#A2C7FD</color>
+    <color name="next3_Tcolor">#5E35FF</color>
+    <color name="background_MA4">#A2C7FD</color>
+    <color name="onBoard3_topic">#000000</color>
+    <color name="onboard3_des">#000000</color>
+    <color name="getStarted_btn">#5E35FF</color>
+    <color name="startBtn_color">#5E35FF</color>
+    <color name="background_MA5">#A2C7FD</color>
+    <color name="container1">#CCDEFA</color>
+    <color name="signUpText">#000000</color>
+    <color name="signUp_des">#000000</color>
+    <color name="input">#FFFFFF</color>
+    <color name="hometopic">#80FFFFFF</color>
+    <color name="homeTopic">#FF0099</color>
+    <color name="dlt_btn">#FF1100</color>
+
+
+</resources>
